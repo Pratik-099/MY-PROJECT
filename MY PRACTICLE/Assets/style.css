@@ -1,0 +1,695 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* NAVBAR CSS */
+.navbar {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.navbar-nav li a {
+
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+
+}
+
+.navbar-nav li {
+    padding: 0px 10px;
+
+    margin-left: 20px;
+
+
+}
+
+.navbar-toggler-icon {
+
+
+    background-color: aliceblue;
+    border-radius: 100%;
+}
+
+
+.navbar-brand img {
+    width: 165px;
+    height: 48.5px;
+    color: black;
+    margin-left: 250px;
+    /* margin: auto; */
+}
+
+
+.green {
+    color: #00FFA7;
+
+}
+
+
+/* SECTION CSS */
+
+section {
+    background: black;
+    height: auto;
+    padding: 0 0 40px 0;
+
+}
+
+.Welcome h1 {
+
+
+    text-align: center;
+
+    font-size: 100px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+}
+
+.Welcome {
+
+    margin-top: 50.5px;
+}
+
+
+
+
+.chain {
+    background: linear-gradient(270deg, #00FFA7 0%, #FFFF00 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+
+
+
+}
+
+.From-Para {
+    text-align: center;
+
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+    width: 750px;
+    height: 104px;
+    font-weight: 500;
+    font-size: 18px;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.Get-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 66.06px;
+    width: 211.97px;
+    place-items: center;
+    background-color: white;
+    border-radius: 50px;
+    border: 3px;
+
+    margin-bottom: 60px;
+
+}
+
+.main-btn {
+    display: grid;
+    /* width: 230px; */
+    /* justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; */
+    border-radius: 50px;
+    place-items: center;
+}
+
+.Get-started h1 {
+    font-size: 16px;
+    margin-top: 5px;
+
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.img-btn img {
+
+    width: 31.17px;
+    height: 31.17px;
+}
+
+.first {
+    width: 15px;
+    height: 14px;
+    margin-bottom: 13px;
+}
+
+/* ARTICLE CSS */
+
+article {
+    margin-top: 89px;
+}
+
+.service-container {
+
+    margin-left: 20px;
+}
+
+.service {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+.para-disc {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.second {
+    width: 60px;
+    height: 60px;
+
+}
+
+.aro-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.main {
+    border: 3px solid black;
+    width: 260px;
+    height: 402px;
+    border-radius: 20px;
+
+}
+
+.img {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.flex1 {
+    display: flex;
+    border-bottom: 2px solid black;
+    justify-content: start;
+    align-items: center;
+    height: auto;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.flex2 {
+    display: grid;
+    place-items: center;
+    border-bottom: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.img1 {
+    height: 160px;
+    width: 160px;
+}
+
+.img1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.flex3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.main-box-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.main-box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main {
+
+    margin: 5px;
+}
+
+.Block {
+    font-size: 23px;
+    text-align: center;
+}
+
+.Join {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.flex1 .names {
+    font-size: 15px;
+
+}
+
+
+
+.flex3 {
+    border: 2px solid black;
+    height: 36px;
+    width: 100px;
+    color: rgb(27, 27, 27);
+
+    margin-left: 120px;
+    border-radius: 20px;
+}
+
+
+
+/* FOOTER CSS */
+footer {
+    background-color: black;
+    height: 266px;
+    margin-top: 68px;
+}
+
+.footer img {
+
+    margin-top: 68px;
+
+}
+
+.footer-img {
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+
+.line {
+    color: white;
+    width: 1122px;
+    display: block;
+    margin: auto;
+}
+
+.hr-line {
+    margin-top: 50px;
+}
+
+.footer-contant {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+
+
+     .navbar-brand img{
+        margin: auto;
+
+
+     }
+     .logo{
+        margin-left: 10px;
+     }
+
+
+    .green {
+        color: #00FFA7;
+
+    }
+
+    section {
+        background: black;
+        height: 500px;
+    }
+
+    .Welcome h1 {
+
+
+        text-align: center;
+
+        font-size: 50px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        color: white;
+    }
+
+    .Welcome {
+
+        margin-top: 50.5px;
+    }
+
+
+
+    .chain {
+        background: linear-gradient(270deg, #00FFA7 0%, #FFFF00 100%);
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+    }
+
+    .From-Para {
+        text-align: center;
+
+        display: block;
+        margin: auto;
+
+        width: 100%;
+        height: 104px;
+        font-weight: 500;
+        font-size: 12px;
+        color: aliceblue;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+    }
+
+    .Get-btn {
+
+        display: flex;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: white;
+        border-radius: 50px;
+        border: 3px;
+
+
+    }
+
+    .main-btn {
+        display: grid;
+        /* width: 100%; */
+        margin-top: 50px;
+
+        border-radius: 50px;
+        place-items: center;
+    }
+
+    .Get-started h1 {
+        font-size: 16px;
+        margin-top: 5px;
+
+        padding-right: 20px;
+        font-weight: 600;
+    }
+
+    .img-btn img {
+
+        width: 31.17px;
+        height: 31.17px;
+    }
+
+
+
+
+
+    .footer-contant {
+        text-align: center;
+        margin-top: 50px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+
+}
+
+
+/* TAB STYLE */
+@media (min-width: 602px) and (max-width: 900px) {
+
+
+    .navbar-brand img{
+        margin: auto ;
+
+
+     }
+
+     .logo{
+        margin-left: 10px;
+     }
+    section {
+        background: black;
+        height: 500px;
+    }
+
+    .Welcome h1 {
+
+
+        text-align: center;
+
+        font-size: 60px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        color: white;
+    }
+
+    .Welcome {
+
+        margin-top: 50.5px;
+    }
+
+
+    .From-Para {
+        text-align: center;
+
+        display: block;
+        margin: auto;
+
+        width: 400px;
+        height: 104px;
+        font-weight: 500;
+        font-size: 12px;
+        color: aliceblue;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+    }
+
+
+    .Get-btn {
+        width: 210px;
+
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: white;
+        border-radius: 50px;
+        border: 3px;
+
+
+    }
+
+
+    .main-btn {
+        display: grid;
+
+        margin-top: 50px;
+        border-radius: 50px;
+        place-items: center;
+    }
+
+    .img-btn img {
+
+        width: 31.17px;
+        height: 31.17px;
+    }
+
+    .Get-started h1 {
+        font-size: 16px;
+        margin-top: 5px;
+
+        padding-right: 20px;
+        font-weight: 600;
+    }
+
+
+
+
+
+
+    .footer-contant {
+        text-align: center;
+        margin-top: 50px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+
+
+}
+
+/* DESKTOP STYLE */
+
+@media (min-width: 901px) and (max-width:1200px) {
+
+
+    
+
+     .logo{
+       margin-left:10px ;
+     }
+    section {
+        background: black;
+        height: 500px;
+    }
+
+
+
+    .Welcome h1 {
+
+
+        text-align: center;
+
+        font-size: 60px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        color: white;
+    }
+
+    .Welcome {
+
+        margin-top: 50.5px;
+    }
+
+    .From-Para {
+        text-align: center;
+
+        display: block;
+        margin: auto;
+
+        width: 400px;
+        height: 104px;
+        font-weight: 500;
+        font-size: 12px;
+        color: aliceblue;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: white;
+    }
+
+    .Get-btn {
+        width: 200px;
+
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: white;
+        border-radius: 50px;
+        border: 3px;
+
+
+    }
+
+    .main-btn {
+        display: grid;
+
+        margin-top: 50px;
+        border-radius: 50px;
+        place-items: center;
+    }
+
+    .img-btn img {
+
+        width: 31.17px;
+        height: 31.17px;
+    }
+
+    .Get-started h1 {
+        font-size: 16px;
+        margin-top: 5px;
+
+        padding-right: 20px;
+        font-weight: 600;
+    }
+
+
+
+
+    .footer-contant {
+        text-align: center;
+        margin-top: 50px;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+
+
+}
+
